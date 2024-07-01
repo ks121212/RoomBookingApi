@@ -65,7 +65,6 @@ export const createRoom =  (req, res)=>{
 
         //sending response
          res.status(201).json({message : `New Room Created Successfully`, data : newRoom});
-
     }catch(err){
 
         //throw error if anything goes wrong
